@@ -7,7 +7,8 @@
 
 .container {
     padding: 25px 0 10px 150px;
-    background: linear-gradient(#FFFFFF, #f9f9fa);
+    background: linear-gradient(#FFFFFF, #f1f2fc);
+    /* background: linear-gradient(#FFFFFF, #f9f9fa); */
 
 }
 
@@ -19,7 +20,7 @@
 
 button {
     color: white;
-    padding: 15px 25px;
+    padding: 18px 28px;
     border-radius: 50px;
     font-size: 18px;
     font-weight: 500;
@@ -28,7 +29,7 @@ button {
 }
 
 .top-btn {
-    padding-right: 50px;
+    margin-right: 50px;
 }
 
 .get-started-btn {
@@ -36,7 +37,11 @@ button {
 }
 
 .color-gradient-1 {
-    background: linear-gradient(#F02AA6, #FF6F48);
+    background: linear-gradient(#FF6F48, #F02AA6);
+}
+
+.color-gradient-2 {
+    /* background: linear-gradient(#F02AA6, #FF6F48); */
 }
 
 .hero {
@@ -50,14 +55,27 @@ button {
 
 .hero-text {
     width: 47%;
-    /* display:flex;
-    flex-direction: column; */
+    display:flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.hero-text h1 {
+    margin-top: 100px;
 }
 
 .hero-text p {
-    color: #a2a4b3;
-    padding: 30px 0;
+    padding-right: 130px;
 }
+
+.hero-text button {
+    width: 28%;
+}
+
+/* .hero-text p {
+    color: #83869a;
+    padding: 30px 0;
+} */
 
 .hero-img {
     width: 53%;
@@ -71,20 +89,28 @@ button {
     color: #13183F;
     font-size: 60px;
     font-weight: 790;
-    /* margin-bottom: 20px; */
+}
+
+.heading-2 {
+    color: #13183F;
+    font-size: 25px;
+    font-weight: 790;
 }
 
 
 .courses {
     display:flex;
-    column-gap:50px;
+    column-gap:30px;
     /* justify-content: space-between; */
+    align-items:center;
 }
 
 .course-item {
     height: 320px;
     padding: 70px 50px;
     border-radius: 20px;
+    width: 30%;
+
 }
 
 .course-item-1 {
@@ -93,6 +119,18 @@ button {
 
 .course-item-2, .course-item-3 {
     background-color: white;
+    column-gap: 50px;
+}
+
+.course-item-3 {
+    /* margin-right: 50px; */
+}
+
+
+.grey-text {
+    color: #83869a;
+    line-height: 30px;
+    font-size: 18px;
 }
 
 
