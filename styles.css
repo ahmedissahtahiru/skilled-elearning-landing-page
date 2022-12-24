@@ -107,11 +107,16 @@ button {
 
 .course-item {
     height: 320px;
-    padding: 70px 50px;
+    padding: 70px 30px;
     border-radius: 20px;
     width: 30%;
-
+    display:flex;
+    flex-direction: column;
+    justify-items:last baseline;
+    /* align-content: space-between; */
+    row-gap: 20px;
 }
+
 
 .course-item-1 {
     color: white;
@@ -131,6 +136,13 @@ button {
     color: #83869a;
     line-height: 30px;
     font-size: 18px;
+}
+
+.link {
+    color: #F74780;
+    font-size: 18px;
+    font-weight: 700;
+    justify-self: flex-end;
 }
 
 
